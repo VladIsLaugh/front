@@ -1,4 +1,4 @@
-const socket = io('https://mysterious-plains-87821.herokuapp.com/');
+const socket = io('http://localhost:3000');
 socket.connect();
 
 socket.on('init', function(data){
